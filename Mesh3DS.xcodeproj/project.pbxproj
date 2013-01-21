@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D132FEA90B16B67C00C30E1A /* Mesh3DS_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF5E0370ADEE00C91783 /* Mesh3DS_Prefix.h */; settings = {ATTRIBUTES = (); }; };
+		D132FEAA0B16B67C00C30E1A /* Mesh3DS.h in Headers */ = {isa = PBXBuildFile; fileRef = D1843EFD03B90A0400A1D905 /* Mesh3DS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D132FEAB0B16B67C00C30E1A /* VERTEX.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D6603BBA62400A1D905 /* VERTEX.h */; };
+		D132FEAD0B16B67C00C30E1A /* TRIANGLE.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D6E03BBA74A00A1D905 /* TRIANGLE.h */; };
+		D132FEAE0B16B67C00C30E1A /* SURFACE.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D7203BBA7D300A1D905 /* SURFACE.h */; };
+		D132FEB00B16B67C00C30E1A /* POLYGONLIST.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D7A03BBA8FF00A1D905 /* POLYGONLIST.h */; };
+		D132FEB10B16B67C00C30E1A /* H3dsRGBColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D7E03BBCC3B00A1D905 /* H3dsRGBColor.h */; };
+		D132FEB20B16B67C00C30E1A /* H3dsTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D8403BBCD1400A1D905 /* H3dsTexture.h */; };
+		D132FEB30B16B67C00C30E1A /* H3dsFace.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D8803BBCD7400A1D905 /* H3dsFace.h */; };
+		D132FEB40B16B67C00C30E1A /* H3dsVert.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D8D03BBCE4800A1D905 /* H3dsVert.h */; };
+		D132FEB50B16B67C00C30E1A /* H3dsMap.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D9103BBD04800A1D905 /* H3dsMap.h */; };
+		D132FEB60B16B67C00C30E1A /* H3dsMatList.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D9503BBD12400A1D905 /* H3dsMatList.h */; };
+		D132FEB70B16B67C00C30E1A /* H3dsMat.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D9903BBD19500A1D905 /* H3dsMat.h */; };
+		D132FEB80B16B67C00C30E1A /* H3dsMeshObj.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870D9D03BBD1ED00A1D905 /* H3dsMeshObj.h */; };
+		D132FEB90B16B67C00C30E1A /* H3dsScene.h in Headers */ = {isa = PBXBuildFile; fileRef = D1870DA103BBD2A300A1D905 /* H3dsScene.h */; };
+		D132FEBA0B16B67C00C30E1A /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = D189980103BD442700A1D905 /* Constants.h */; };
+		D132FEBB0B16B67C00C30E1A /* Math_Routines.h in Headers */ = {isa = PBXBuildFile; fileRef = D17EE95A03BF57E600A1D905 /* Math_Routines.h */; };
+		D132FEBC0B16B67C00C30E1A /* File_Routines.h in Headers */ = {isa = PBXBuildFile; fileRef = D17C08F503C0D8A600A1D905 /* File_Routines.h */; };
+		D132FEBD0B16B67C00C30E1A /* OpenGL_Routines.h in Headers */ = {isa = PBXBuildFile; fileRef = D185694803C3DBF500A1D905 /* OpenGL_Routines.h */; };
+		D132FEBF0B16B67C00C30E1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		D132FEC10B16B67C00C30E1A /* Mesh3DS.m in Sources */ = {isa = PBXBuildFile; fileRef = D1843EFE03B90A0400A1D905 /* Mesh3DS.m */; };
+		D132FEC20B16B67C00C30E1A /* VERTEX.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D6703BBA62400A1D905 /* VERTEX.m */; };
+		D132FEC40B16B67C00C30E1A /* TRIANGLE.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D6F03BBA74A00A1D905 /* TRIANGLE.m */; };
+		D132FEC50B16B67C00C30E1A /* SURFACE.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D7303BBA7D300A1D905 /* SURFACE.m */; };
+		D132FEC70B16B67C00C30E1A /* POLYGONLIST.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D7B03BBA8FF00A1D905 /* POLYGONLIST.m */; };
+		D132FEC80B16B67C00C30E1A /* H3dsRGBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D7F03BBCC3B00A1D905 /* H3dsRGBColor.m */; };
+		D132FEC90B16B67C00C30E1A /* H3dsTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D8503BBCD1400A1D905 /* H3dsTexture.m */; };
+		D132FECA0B16B67C00C30E1A /* H3dsFace.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D8903BBCD7400A1D905 /* H3dsFace.m */; };
+		D132FECB0B16B67C00C30E1A /* H3dsVert.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D8E03BBCE4800A1D905 /* H3dsVert.m */; };
+		D132FECC0B16B67C00C30E1A /* H3dsMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D9203BBD04800A1D905 /* H3dsMap.m */; };
+		D132FECD0B16B67C00C30E1A /* H3dsMatList.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D9603BBD12400A1D905 /* H3dsMatList.m */; };
+		D132FECE0B16B67C00C30E1A /* H3dsMat.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D9A03BBD19500A1D905 /* H3dsMat.m */; };
+		D132FECF0B16B67C00C30E1A /* H3dsMeshObj.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870D9E03BBD1ED00A1D905 /* H3dsMeshObj.m */; };
+		D132FED00B16B67C00C30E1A /* H3dsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1870DA203BBD2A300A1D905 /* H3dsScene.m */; };
+		D132FED10B16B67C00C30E1A /* Math_Routines.m in Sources */ = {isa = PBXBuildFile; fileRef = D19E2C5C03BE82F300A1D905 /* Math_Routines.m */; };
+		D132FED20B16B67C00C30E1A /* File_Routines.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C08F703C0D8B400A1D905 /* File_Routines.m */; };
+		D132FED30B16B67C00C30E1A /* OpenGL_Routines.m in Sources */ = {isa = PBXBuildFile; fileRef = D185694A03C3DC2800A1D905 /* OpenGL_Routines.m */; };
+		D132FED60B16B67C00C30E1A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1843EFB03B909DB00A1D905 /* OpenGL.framework */; };
+		D1696024104EDDCE00A82BCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1696023104EDDCE00A82BCA /* Cocoa.framework */; };
+		D1A2415114F0379F00EC508A /* Mesh3DS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D132FEDD0B16B67C00C30E1A /* Mesh3DS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1A2415014F0373D00EC508A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Library/Frameworks;
+			dstSubfolderSpec = 0;
+			files = (
+				D1A2415114F0379F00EC508A /* Mesh3DS.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* Mesh3DS_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh3DS_Prefix.h; sourceTree = "<group>"; };
+		D132FEDC0B16B67C00C30E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D132FEDD0B16B67C00C30E1A /* Mesh3DS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mesh3DS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1696023104EDDCE00A82BCA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		D17C08F503C0D8A600A1D905 /* File_Routines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File_Routines.h; sourceTree = "<group>"; };
+		D17C08F703C0D8B400A1D905 /* File_Routines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = File_Routines.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D17EE95A03BF57E600A1D905 /* Math_Routines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math_Routines.h; sourceTree = "<group>"; };
+		D1843EFB03B909DB00A1D905 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		D1843EFD03B90A0400A1D905 /* Mesh3DS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Mesh3DS.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D1843EFE03B90A0400A1D905 /* Mesh3DS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Mesh3DS.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D185694803C3DBF500A1D905 /* OpenGL_Routines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OpenGL_Routines.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D185694A03C3DC2800A1D905 /* OpenGL_Routines.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OpenGL_Routines.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D1870D6603BBA62400A1D905 /* VERTEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VERTEX.h; sourceTree = "<group>"; };
+		D1870D6703BBA62400A1D905 /* VERTEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VERTEX.m; sourceTree = "<group>"; };
+		D1870D6E03BBA74A00A1D905 /* TRIANGLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRIANGLE.h; sourceTree = "<group>"; };
+		D1870D6F03BBA74A00A1D905 /* TRIANGLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRIANGLE.m; sourceTree = "<group>"; };
+		D1870D7203BBA7D300A1D905 /* SURFACE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SURFACE.h; sourceTree = "<group>"; };
+		D1870D7303BBA7D300A1D905 /* SURFACE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SURFACE.m; sourceTree = "<group>"; };
+		D1870D7A03BBA8FF00A1D905 /* POLYGONLIST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POLYGONLIST.h; sourceTree = "<group>"; };
+		D1870D7B03BBA8FF00A1D905 /* POLYGONLIST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POLYGONLIST.m; sourceTree = "<group>"; };
+		D1870D7E03BBCC3B00A1D905 /* H3dsRGBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsRGBColor.h; sourceTree = "<group>"; };
+		D1870D7F03BBCC3B00A1D905 /* H3dsRGBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsRGBColor.m; sourceTree = "<group>"; };
+		D1870D8403BBCD1400A1D905 /* H3dsTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsTexture.h; sourceTree = "<group>"; };
+		D1870D8503BBCD1400A1D905 /* H3dsTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsTexture.m; sourceTree = "<group>"; };
+		D1870D8803BBCD7400A1D905 /* H3dsFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsFace.h; sourceTree = "<group>"; };
+		D1870D8903BBCD7400A1D905 /* H3dsFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsFace.m; sourceTree = "<group>"; };
+		D1870D8D03BBCE4800A1D905 /* H3dsVert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsVert.h; sourceTree = "<group>"; };
+		D1870D8E03BBCE4800A1D905 /* H3dsVert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsVert.m; sourceTree = "<group>"; };
+		D1870D9103BBD04800A1D905 /* H3dsMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsMap.h; sourceTree = "<group>"; };
+		D1870D9203BBD04800A1D905 /* H3dsMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsMap.m; sourceTree = "<group>"; };
+		D1870D9503BBD12400A1D905 /* H3dsMatList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsMatList.h; sourceTree = "<group>"; };
+		D1870D9603BBD12400A1D905 /* H3dsMatList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = H3dsMatList.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D1870D9903BBD19500A1D905 /* H3dsMat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsMat.h; sourceTree = "<group>"; };
+		D1870D9A03BBD19500A1D905 /* H3dsMat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsMat.m; sourceTree = "<group>"; };
+		D1870D9D03BBD1ED00A1D905 /* H3dsMeshObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsMeshObj.h; sourceTree = "<group>"; };
+		D1870D9E03BBD1ED00A1D905 /* H3dsMeshObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = H3dsMeshObj.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D1870DA103BBD2A300A1D905 /* H3dsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H3dsScene.h; sourceTree = "<group>"; };
+		D1870DA203BBD2A300A1D905 /* H3dsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H3dsScene.m; sourceTree = "<group>"; };
+		D189980103BD442700A1D905 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Constants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D19E2C5C03BE82F300A1D905 /* Math_Routines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Math_Routines.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D132FED40B16B67C00C30E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FED60B16B67C00C30E1A /* OpenGL.framework in Frameworks */,
+				D1696024104EDDCE00A82BCA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D132FEDD0B16B67C00C30E1A /* Mesh3DS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Mesh3DS */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				D132FEDC0B16B67C00C30E1A /* Info.plist */,
+			);
+			name = Mesh3DS;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D1696023104EDDCE00A82BCA /* Cocoa.framework */,
+				D1843EFB03B909DB00A1D905 /* OpenGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D189980103BD442700A1D905 /* Constants.h */,
+				D1843EFD03B90A0400A1D905 /* Mesh3DS.h */,
+				D1843EFE03B90A0400A1D905 /* Mesh3DS.m */,
+				D17C08F403C0D87E00A1D905 /* File_Routines */,
+				D19E2C5B03BE81A600A1D905 /* Math_Routines */,
+				D185694703C3DBDF00A1D905 /* OpenGL_Routines */,
+				D1870D8C03BBCDEC00A1D905 /* 3DS_Input_Structures */,
+				D17FA70803BCEEDE00A1D905 /* OpenGL_Output_Structures */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* Mesh3DS_Prefix.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D17C08F403C0D87E00A1D905 /* File_Routines */ = {
+			isa = PBXGroup;
+			children = (
+				D17C08F503C0D8A600A1D905 /* File_Routines.h */,
+				D17C08F703C0D8B400A1D905 /* File_Routines.m */,
+			);
+			name = File_Routines;
+			sourceTree = "<group>";
+		};
+		D17FA70803BCEEDE00A1D905 /* OpenGL_Output_Structures */ = {
+			isa = PBXGroup;
+			children = (
+				D1870D6603BBA62400A1D905 /* VERTEX.h */,
+				D1870D6703BBA62400A1D905 /* VERTEX.m */,
+				D1870D6E03BBA74A00A1D905 /* TRIANGLE.h */,
+				D1870D6F03BBA74A00A1D905 /* TRIANGLE.m */,
+				D1870D7203BBA7D300A1D905 /* SURFACE.h */,
+				D1870D7303BBA7D300A1D905 /* SURFACE.m */,
+				D1870D7A03BBA8FF00A1D905 /* POLYGONLIST.h */,
+				D1870D7B03BBA8FF00A1D905 /* POLYGONLIST.m */,
+			);
+			name = OpenGL_Output_Structures;
+			sourceTree = "<group>";
+		};
+		D185694703C3DBDF00A1D905 /* OpenGL_Routines */ = {
+			isa = PBXGroup;
+			children = (
+				D185694803C3DBF500A1D905 /* OpenGL_Routines.h */,
+				D185694A03C3DC2800A1D905 /* OpenGL_Routines.m */,
+			);
+			name = OpenGL_Routines;
+			sourceTree = "<group>";
+		};
+		D1870D8C03BBCDEC00A1D905 /* 3DS_Input_Structures */ = {
+			isa = PBXGroup;
+			children = (
+				D1870D7E03BBCC3B00A1D905 /* H3dsRGBColor.h */,
+				D1870D7F03BBCC3B00A1D905 /* H3dsRGBColor.m */,
+				D1870D8403BBCD1400A1D905 /* H3dsTexture.h */,
+				D1870D8503BBCD1400A1D905 /* H3dsTexture.m */,
+				D1870D8803BBCD7400A1D905 /* H3dsFace.h */,
+				D1870D8903BBCD7400A1D905 /* H3dsFace.m */,
+				D1870D8D03BBCE4800A1D905 /* H3dsVert.h */,
+				D1870D8E03BBCE4800A1D905 /* H3dsVert.m */,
+				D1870D9103BBD04800A1D905 /* H3dsMap.h */,
+				D1870D9203BBD04800A1D905 /* H3dsMap.m */,
+				D1870D9503BBD12400A1D905 /* H3dsMatList.h */,
+				D1870D9603BBD12400A1D905 /* H3dsMatList.m */,
+				D1870D9903BBD19500A1D905 /* H3dsMat.h */,
+				D1870D9A03BBD19500A1D905 /* H3dsMat.m */,
+				D1870D9D03BBD1ED00A1D905 /* H3dsMeshObj.h */,
+				D1870D9E03BBD1ED00A1D905 /* H3dsMeshObj.m */,
+				D1870DA103BBD2A300A1D905 /* H3dsScene.h */,
+				D1870DA203BBD2A300A1D905 /* H3dsScene.m */,
+			);
+			name = 3DS_Input_Structures;
+			sourceTree = "<group>";
+		};
+		D19E2C5B03BE81A600A1D905 /* Math_Routines */ = {
+			isa = PBXGroup;
+			children = (
+				D17EE95A03BF57E600A1D905 /* Math_Routines.h */,
+				D19E2C5C03BE82F300A1D905 /* Math_Routines.m */,
+			);
+			name = Math_Routines;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D132FEA80B16B67C00C30E1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FEA90B16B67C00C30E1A /* Mesh3DS_Prefix.h in Headers */,
+				D132FEAA0B16B67C00C30E1A /* Mesh3DS.h in Headers */,
+				D132FEAB0B16B67C00C30E1A /* VERTEX.h in Headers */,
+				D132FEAD0B16B67C00C30E1A /* TRIANGLE.h in Headers */,
+				D132FEAE0B16B67C00C30E1A /* SURFACE.h in Headers */,
+				D132FEB00B16B67C00C30E1A /* POLYGONLIST.h in Headers */,
+				D132FEB10B16B67C00C30E1A /* H3dsRGBColor.h in Headers */,
+				D132FEB20B16B67C00C30E1A /* H3dsTexture.h in Headers */,
+				D132FEB30B16B67C00C30E1A /* H3dsFace.h in Headers */,
+				D132FEB40B16B67C00C30E1A /* H3dsVert.h in Headers */,
+				D132FEB50B16B67C00C30E1A /* H3dsMap.h in Headers */,
+				D132FEB60B16B67C00C30E1A /* H3dsMatList.h in Headers */,
+				D132FEB70B16B67C00C30E1A /* H3dsMat.h in Headers */,
+				D132FEB80B16B67C00C30E1A /* H3dsMeshObj.h in Headers */,
+				D132FEB90B16B67C00C30E1A /* H3dsScene.h in Headers */,
+				D132FEBA0B16B67C00C30E1A /* Constants.h in Headers */,
+				D132FEBB0B16B67C00C30E1A /* Math_Routines.h in Headers */,
+				D132FEBC0B16B67C00C30E1A /* File_Routines.h in Headers */,
+				D132FEBD0B16B67C00C30E1A /* OpenGL_Routines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D132FEA70B16B67C00C30E1A /* Mesh3DS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D132FED80B16B67C00C30E1A /* Build configuration list for PBXNativeTarget "Mesh3DS" */;
+			buildPhases = (
+				D132FEA80B16B67C00C30E1A /* Headers */,
+				D132FEBE0B16B67C00C30E1A /* Resources */,
+				D132FEC00B16B67C00C30E1A /* Sources */,
+				D132FED40B16B67C00C30E1A /* Frameworks */,
+				D132FED70B16B67C00C30E1A /* Rez */,
+				D1A2415014F0373D00EC508A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mesh3DS;
+			productName = Mesh3DS;
+			productReference = D132FEDD0B16B67C00C30E1A /* Mesh3DS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D1E8506C09268E2E00E3C516 /* Build configuration list for PBXProject "Mesh3DS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* Mesh3DS */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D132FEA70B16B67C00C30E1A /* Mesh3DS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D132FEBE0B16B67C00C30E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FEBF0B16B67C00C30E1A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		D132FED70B16B67C00C30E1A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D132FEC00B16B67C00C30E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FEC10B16B67C00C30E1A /* Mesh3DS.m in Sources */,
+				D132FEC20B16B67C00C30E1A /* VERTEX.m in Sources */,
+				D132FEC40B16B67C00C30E1A /* TRIANGLE.m in Sources */,
+				D132FEC50B16B67C00C30E1A /* SURFACE.m in Sources */,
+				D132FEC70B16B67C00C30E1A /* POLYGONLIST.m in Sources */,
+				D132FEC80B16B67C00C30E1A /* H3dsRGBColor.m in Sources */,
+				D132FEC90B16B67C00C30E1A /* H3dsTexture.m in Sources */,
+				D132FECA0B16B67C00C30E1A /* H3dsFace.m in Sources */,
+				D132FECB0B16B67C00C30E1A /* H3dsVert.m in Sources */,
+				D132FECC0B16B67C00C30E1A /* H3dsMap.m in Sources */,
+				D132FECD0B16B67C00C30E1A /* H3dsMatList.m in Sources */,
+				D132FECE0B16B67C00C30E1A /* H3dsMat.m in Sources */,
+				D132FECF0B16B67C00C30E1A /* H3dsMeshObj.m in Sources */,
+				D132FED00B16B67C00C30E1A /* H3dsScene.m in Sources */,
+				D132FED10B16B67C00C30E1A /* Math_Routines.m in Sources */,
+				D132FED20B16B67C00C30E1A /* File_Routines.m in Sources */,
+				D132FED30B16B67C00C30E1A /* OpenGL_Routines.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D132FED90B16B67C00C30E1A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mesh3DS_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Mesh3DS;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		D132FEDA0B16B67C00C30E1A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mesh3DS_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Mesh3DS;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		D132FEDB0B16B67C00C30E1A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Mesh3DS_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Mesh3DS;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		D1E8506D09268E2E00E3C516 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEPLOYMENT_LOCATION = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+			};
+			name = Development;
+		};
+		D1E8506E09268E2E00E3C516 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEPLOYMENT_LOCATION = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		D1E8506F09268E2E00E3C516 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEPLOYMENT_LOCATION = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D132FED80B16B67C00C30E1A /* Build configuration list for PBXNativeTarget "Mesh3DS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D132FED90B16B67C00C30E1A /* Development */,
+				D132FEDA0B16B67C00C30E1A /* Deployment */,
+				D132FEDB0B16B67C00C30E1A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D1E8506C09268E2E00E3C516 /* Build configuration list for PBXProject "Mesh3DS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E8506D09268E2E00E3C516 /* Development */,
+				D1E8506E09268E2E00E3C516 /* Deployment */,
+				D1E8506F09268E2E00E3C516 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
